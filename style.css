@@ -1,5 +1,53 @@
+h1 {
+	text-align: center;
+	color: rgb(155, 25, 25);
+}
+
+nav, figure {
+	text-align: center;
+}
+
+figure {
+	font-size: smaller;
+}
+
+nav > a {
+	display: inline-block;
+	padding-left: 10px;
+	padding-right: 10px;
+	color: rgb(17, 7, 107);
+	background: cornsilk;
+}
+
+img {
+	width: 60%;
+	margin: auto;
+  display: block;
+}
+
+
 body {
   width: 100%;
   height: 100%;
   margin: 0;
+}
+
+#featured-property > p {
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+#details {
+	display: block;
+}
+
+div {
+	float: left;
+	background: cornsilk;
+	width: 25%;
+	display: inline-block;
+	text-align: center;
+	
 }
